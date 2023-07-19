@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T15:19:28.554Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="y8WwlgRh9gt45hZMH312" version="21.6.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T15:28:46.844Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="-Q-plVs4dMq9l42iYDXO" version="21.6.3" type="github">
   <diagram name="Доставка" id="I9tMwccd9cu2x0XfMizf">
-    <mxGraphModel dx="-1428" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-2426" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry y="30" width="275" height="90" as="geometry" />
         </mxCell>
         <mxCell id="O5lm5AuSNtOYB25-jnhQ-17" value="Адрес доставки" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=20;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="3620" y="1278.5" width="275" height="149.5" as="geometry" />
+          <mxGeometry x="3650" y="1290" width="275" height="149.5" as="geometry" />
         </mxCell>
         <mxCell id="O5lm5AuSNtOYB25-jnhQ-18" value="*  Номер накладной&#xa;+ Логин пользователя&#xa;+ индекс&#xa;+ город&#xa;+ адрес&#xa;+ статус&#xa;+ дата доставки " style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" parent="O5lm5AuSNtOYB25-jnhQ-17" vertex="1">
           <mxGeometry y="30" width="275" height="119.5" as="geometry" />
@@ -114,7 +114,7 @@
           <mxGeometry y="30" width="275" height="110" as="geometry" />
         </mxCell>
         <mxCell id="U3gDqBUPOxM8sPVs_ZDW-5" value="Доставка" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=20;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3710" y="1460" width="275" height="140" as="geometry" />
+          <mxGeometry x="3345" y="1200" width="275" height="140" as="geometry" />
         </mxCell>
         <mxCell id="U3gDqBUPOxM8sPVs_ZDW-6" value="*" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="U3gDqBUPOxM8sPVs_ZDW-5">
           <mxGeometry y="30" width="275" height="110" as="geometry" />
@@ -130,6 +130,24 @@
         </mxCell>
         <mxCell id="U3gDqBUPOxM8sPVs_ZDW-13" value="*" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="U3gDqBUPOxM8sPVs_ZDW-12">
           <mxGeometry y="30" width="275" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="U3gDqBUPOxM8sPVs_ZDW-21" value="Оплата на сайте" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=20;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3900" y="1580" width="275" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U3gDqBUPOxM8sPVs_ZDW-22" value="+ Данные карты&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="U3gDqBUPOxM8sPVs_ZDW-21">
+          <mxGeometry y="30" width="275" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U3gDqBUPOxM8sPVs_ZDW-23" value="Способ оплаты" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=20;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4100" y="1440" width="275" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U3gDqBUPOxM8sPVs_ZDW-24" value="+ Оплата на сайте&#xa;+ Оплата курьеру" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="U3gDqBUPOxM8sPVs_ZDW-23">
+          <mxGeometry y="30" width="275" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="U3gDqBUPOxM8sPVs_ZDW-25" value="Оплата курьеру" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=20;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="1">
+          <mxGeometry x="4260" y="1580" width="275" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U3gDqBUPOxM8sPVs_ZDW-26" value="+ Данные карты&#xa;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;labelBackgroundColor=#FFFFFF;labelBorderColor=none;" vertex="1" parent="U3gDqBUPOxM8sPVs_ZDW-25">
+          <mxGeometry y="30" width="275" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
